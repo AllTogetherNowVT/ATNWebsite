@@ -5,14 +5,11 @@ footer {
     background-color: #447C2A;
 }
 .column {
-  margin: auto;
   float: left;
-  width: 24%;
+  width: 25%;
   padding: 5px;
 }
 .row::after {
-  width: 95%;
-  margin: auto;
   content: "";
   clear: both;
   display: table;
