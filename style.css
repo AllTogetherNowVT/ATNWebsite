@@ -4,3 +4,18 @@ body {
 footer {
     background-color: #447C2A;
 }
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+@media screen and (max-width: 400px) {
+  .column {
+    width: 50%;
+  }
+}
