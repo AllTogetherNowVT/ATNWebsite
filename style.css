@@ -14,7 +14,7 @@ footer {
   clear: both;
   display: table;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 900px) {
   .column {
     width: 50%;
   }
