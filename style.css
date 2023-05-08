@@ -11,6 +11,8 @@ footer {
   padding: 5px;
 }
 .row::after {
+  width: 90%;
+  margin: auto;
   content: "";
   clear: both;
   display: table;
