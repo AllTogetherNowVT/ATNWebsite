@@ -19,6 +19,11 @@ footer {
   clear: both;
   display: table;
 }
+.verticalcenter {
+    display: table-cell;
+    height: 400px;
+    vertical-align: middle;
+}
 @media screen and (max-width: 900px) {
   .column {
     width: 50%;
