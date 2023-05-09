@@ -21,7 +21,7 @@ footer {
 }
 .verticalcenter {
     display: table-cell;
-    height: 400px;
+    height: 200px;
     vertical-align: middle;
 }
 @media screen and (max-width: 900px) {
