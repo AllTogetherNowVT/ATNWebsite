@@ -5,3 +5,9 @@ searchButton.addEventListener('click', () => {
   const inputValue = searchInput.value;
   window.open("https://alltogethernow.findhelp.com/search_results/" + inputValue, '_blank');
 });
+searchInput.addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    searchButton.click();
+  }
+});
